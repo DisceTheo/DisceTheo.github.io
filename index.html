@@ -1,15 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./candle.png">
     <title>DisceTheo</title>
-    <script type="module" crossorigin src="main.js"></script>
-    <link rel="stylesheet" href="main.css">
-  </head>
-  <body>
-    <div id="app"></div>
-    
-  </body>
+    <style>
+        body{
+            background-color: #1d3040;
+            color: #bfc2c7;
+        }
+        .main{
+            position: absolute;
+            left:50%;
+            top:50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+        .foot{
+            position: absolute;
+            left:50%;
+            bottom:0;
+            transform: translate(-50%);
+            font-family: sans-serif;
+            margin-bottom: 10px;
+        }
+        .h1{
+            margin: 0!important;
+            font-size: 52px;
+            font-family: sans-serif;
+        }
+        .img{
+            position:absolute;
+            left:50%;
+            top:50%;
+            transform:translate(-50%,-50%);
+            opacity:0.2;
+	    }
+        a{ 
+            color: #bfc2c7;
+            text-decoration: underline;
+        }
+        .text{
+            font-size: 16px;
+        }
+        .subtext{
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img class="img" src="./candle (1).png" alt="#"/>
+    </div>
+    <div class="main">
+        <span class="h1"><b>DisceTheo</b></span><br/>
+        <span class="text">Let us then continually persevere in our hope</span><br/>
+        <span class="subtext"><em>The Epistle of Polycarp to the Phillipians 8:1</em></span>
+    </div>
+    <div class="foot">
+        <a href="./info/index.html">Info</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./lead/index.html">Leadership</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./event/index.html">Events</a>
+    </div>
+</body>
 </html>
